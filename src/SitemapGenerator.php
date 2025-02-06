@@ -53,6 +53,7 @@ class SitemapGenerator
         call_user_func_array($closure, [$this->crawler]);
 
         return $this;
+
     }
 
     public function setConcurrency(int $concurrency): static
